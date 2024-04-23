@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock Tutorial</title>
+
+    <!-- Font Awsome Icons Link CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="STYLE.CSS" />
+  </head>
+  <body>
+    <section id="clock">
+      <div class="container">
+        <div class="icons">
+          <i class="fas fa-moon">
+            <!-- Dark -->
+          </i>
+          <i class="fas fa-sun">
+            <!-- Light -->
+          </i>
+        </div>
+        <div class="time">
+          <div class="time-column">
+            <div class="time-text">
+              <span id="hour-text" class="num">00</span><span class="text">Hours</span>
+            </div>
+			<span class="colon">:</span>
+          </div>
+          <div class="time-column">
+            <div class="time-text">
+              <span id="minute-text" class="num">00</span><span class="text">Minutes</span>
+            </div>
+			<span class="colon">:</span>
+          </div>
+          <div class="time-column">
+            <div class="time-text">
+              <span id="second-text" class="num">00</span><span class="text">Seconds</span>
+            </div>
+			<span id="am-pm" class="am-pm">PM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+	<script src="SCRIPT.JS"></script>
+  </body>
+</html>
